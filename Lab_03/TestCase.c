@@ -4,6 +4,7 @@
 
 int main(){
     FILE *fp;
+    
     //Best
     fp = fopen("Best.txt", "w");
     for(int i=0; i<100; i++){
